@@ -17,7 +17,7 @@
 
 /*For desktop*/
 .col-1 {width: 20%;}
-.col-2 {width: 80%;}
+.col-2 {	width: 80%;}
 
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -33,6 +33,54 @@ html {
 
 .container {
 	margin: auto;
+}
+
+#logobox1 {
+	margin: auto;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+#logobox2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#rect1 {
+	display:inline-block;
+	min-width: 1em;
+	height: 2em;
+	background-color: silver;
+	
+}
+
+#rect2 {
+	display: inline-block;
+	min-width: 1em;
+	height: 2em;
+	background-color: darksalmon;
+	float:left;
+}
+
+#rect3 {
+	display: inline-block;
+	min-width: 1em;
+	height: 2em;
+	background-color: gainsboro;
+	float: left;
+}
+
+#rect4 {
+	display: inline-block;
+	min-width: 1em;
+	height: 2em;
+	background-color: lightblue;
+	float: left;
 }
 
 div.polaroid {
@@ -60,9 +108,15 @@ header {
 	background-color: #edf1f2;
 }
 
+/*
 h1 a{
 	margin: 3%;
 
+}*/
+
+h1 {
+	color: #9ca8a8;
+	padding: 5px;
 }
 
 h1 a{
