@@ -115,7 +115,6 @@ h1 a{
 }*/
 
 h1 {
-	font-family: 'Times','Times New Roman',serif;
 	color: #9ca8a8;
 	padding: 1em;
 	letter-spacing: 0.2em;
@@ -163,6 +162,7 @@ ul a {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	text-align: center;
+	padding: 0.3em;
 }
 
 li  {
