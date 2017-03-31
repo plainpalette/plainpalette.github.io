@@ -115,8 +115,12 @@ h1 a{
 }*/
 
 h1 {
+	font-family: 'Times','Times New Roman',serif;
 	color: #9ca8a8;
-	padding: 5px;
+	padding: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px white;
 }
 
 h1 a{
@@ -150,9 +154,14 @@ ul {
 	padding: 0;
 }
 
-a, ul a {
+a {
 	text-decoration: none;
 	color: #9ca8a8;
+}
+
+ul a {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
 	text-align: center;
 }
 
