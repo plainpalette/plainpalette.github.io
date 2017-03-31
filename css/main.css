@@ -36,12 +36,13 @@ html {
 }
 
 #logobox1 {
-	margin: auto;
-	border: 1px solid black;
+	border:1px solid black;
+	min-width: 80%;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	overflow: hidden;
 }
 
 #logobox2 {
@@ -52,49 +53,48 @@ html {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 1em;
-	/*background-color: white;*/
+	border:1px solid red;
 }
 
 .char1 {
 	background: gainsboro;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
 .char2 {
 	background: lightblue;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
 .char3 {
 	background: rosybrown;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
-
 }
 
 .char4 {
 	background: silver;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
 .char5 {
 	background: linen;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
 .char6 {
 	background: lightgray;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
 .char7 {
 	background: lightsteelblue;
-	padding: 0.8em 0;
+	padding: 0.8em 0.1em;
 	float: left;
 }
 
@@ -166,12 +166,10 @@ h2 {
 }
 
 h1 {
-	font-size: 2.7vmax;
 	text-transform: uppercase;
 	text-shadow: 1px 1px black;
 	text-align: center;
 	margin: 0;
-
 }
 
 h1 a{
