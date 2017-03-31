@@ -12,7 +12,7 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    padding: 5px;
 }
 
 /*For desktop*/
@@ -45,10 +45,63 @@ html {
 }
 
 #logobox2 {
+	width: 100%;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: center;
 	align-items: center;
-	
+	margin-bottom: 1em;
+	/*background-color: white;*/
+}
+
+.char1 {
+	background: gainsboro;
+	padding: 0.8em 0;
+	float: left;
+}
+
+.char2 {
+	background: lightblue;
+	padding: 0.8em 0;
+	float: left;
+}
+
+.char3 {
+	background: rosybrown;
+	padding: 0.8em 0;
+	float: left;
+
+}
+
+.char4 {
+	background: silver;
+	padding: 0.8em 0;
+	float: left;
+}
+
+.char5 {
+	background: linen;
+	padding: 0.8em 0;
+	float: left;
+}
+
+.char6 {
+	background: lightgray;
+	padding: 0.8em 0;
+	float: left;
+}
+
+.char7 {
+	background: lightsteelblue;
+	padding: 0.8em 0;
+	float: left;
+}
+
+
+.logo span {
+	width: 2em;
+	display: inline-block;
 }
 
 #rect1 {
@@ -108,21 +161,23 @@ header {
 	background-color: #edf1f2;
 }
 
-/*
-h1 a{
-	margin: 3%;
-
-}*/
-
 h2 {
-	color: #9ca8a8;
-	padding: 0 0.2em;
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.7vmax;
 	text-transform: uppercase;
-	text-shadow: 1px 1px white;
+	text-shadow: 1px 1px black;
+	text-align: center;
+	margin: 0;
+
 }
 
 h1 a{
-	color: #9ca8a8;
+	/*color: #9ca8a8;*/
+	color: gray;
+	/*font-size: 2.5vmax;*/
 }
 
 nav {
@@ -148,7 +203,8 @@ a:hover {
 
 ul {
 	list-style-type: none;
-	line-height: 2em;
+	line-height: 3em;
+	margin: 0;
 	padding: 0;
 }
 
@@ -161,7 +217,7 @@ ul a {
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
 	text-align: center;
-	padding: 0.3em;
+	/*padding: 0.3em;*/
 }
 
 li  {
