@@ -35,11 +35,7 @@ html {
 	margin: auto;
 }
 
-#logobox1 {
-	float: left;
-}
-
-#logobox2 {
+#logobox {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
@@ -52,53 +48,67 @@ html {
 a.logo {
 	font-size: 1.75em;
 	display: block;
+	font-weight: bold;
 	text-transform: uppercase;
-	text-shadow: 1px 1px black;
+	/*text-shadow: 1px 1px black;*/
 	text-align: center;
 	margin: 0;
-	color:gray;
+	/*color:gray;*/
 }
 
 .char1 {
 	background: gainsboro;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: gray;
+	text-shadow: 1px 1px ghostwhite;
 }
 
 .char2 {
 	background: lightblue;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: #688189;
+	text-shadow: 1px 1px ghostwhite;
 }
 
 .char3 {
 	background: rosybrown;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: black;
 }
 
 .char4 {
 	background: silver;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: #7c7c7c;
+	text-shadow: 1px 1px #efefef;
 }
 
 .char5 {
 	background: linen;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: #8e8277;
+	text-shadow: 1px 1px white;
 }
 
 .char6 {
 	background: lightgray;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: #7c7c7c;
+	text-shadow: 1px 1px #efefef;
 }
 
 .char7 {
 	background: lightsteelblue;
 	padding: 0.8em 0.1em;
 	float: left;
+	color: #78889e;
+	text-shadow: 1px 1px #d4e5fc;
 }
 
 
@@ -106,7 +116,7 @@ a.logo {
 	width: 2em;
 	display: inline-block;
 }
-
+/*
 #rect1 {
 	display:inline-block;
 	min-width: 1em;
@@ -138,7 +148,7 @@ a.logo {
 	background-color: lightblue;
 	float: left;
 }
-
+*/
 div.polaroid {
 	background-color: white;
 	margin-bottom: 20px;
