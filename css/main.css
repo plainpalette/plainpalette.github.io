@@ -53,6 +53,9 @@ a.logo {
 	/*text-shadow: 1px 1px black;*/
 	text-align: center;
 	margin: 0;
+	border: 6px solid white;
+	border-bottom: 20px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	/*color:gray;*/
 }
 
