@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width", initial-scale=1.0">
+	<meta name="description" content="Vineet's Photographs">
+	<meta name="keywords" content="vineet">
+	<meta name="author" content="Vineet">
+	<title>Gallery</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="./css/gallery.css"/>
+	<link rel="stylesheet" href="./lightbox2-master/dist/css/lightbox.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Spinnaker" rel="stylesheet">
+</head>
+	
+<body>
+<div class="container">	
+	<header>
+		<div id="logobox">
+			<a href="./index.html" class="logo">
+			<div class="char1">P</div>
+			<div class="char5">l</div>
+			<div class="char7">a</div>
+			<div class="char2">i</div>
+			<div class="char4">n</div>
+			<div class="char3">&nbsp;</div>
+			<div class="char6">P</div>
+			<div class="char4">a</div>
+			<div class="char5">l</div>
+			<div class="char2">e</div>
+			<div class="char1">t</div>
+			<div class="char5">t</div>
+			<div class="char7">e</div>
+			</a>
+	</header>
+	
+	<div class="row">
+	
+		<div class="col-1">
+			<nav>
+				<ul>
+				 <li><a href="index.html">Home</a></li>
+				 <li><a href="gallery.html">Gallery</a></li>
+				 <li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+		</div>
+	
+		<div class="col-2">
+			<div class="polaroid">
+				<a class="thumb-link" href="./gallery/image1-lg.png" data-lightbox="gallery1" data-title="image caption">
+				<img src="./gallery/image1.png" class="thumbnail" alt="caption using alt"/></a>
+				<div class="caption">Gallery 1</div>
+			</div>
+			<div class="polaroid">
+				<img src="./gallery/image2.png" class="thumbnail"/>
+				<div class="caption">Gallery 2</div>
+			</div>
+		</div>
+		
+		<div class="col-3">
+			<div class="polaroid">
+				<img src="./gallery/image3.png" class="thumbnail"/>
+				<div class="caption">Gallery 3</div>
+			</div>
+			<div class="polaroid">
+				<img src="./gallery/image4.png" class="thumbnail"/>
+				<div class="caption">Gallery 4</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	
+	
+	<footer>
+		<p>&copy Vineet</p>
+	</footer>
+</div>
+<script src="./lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    lightbox.option({
+      'resizeDuration': 200,
+	  'fadeDuration':200,
+	  'imageFadeDuartion': 200,
+    })
+</script>
+</body>
+</html>
